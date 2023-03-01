@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+#sideNav{
+    width: 90px;
+    padding-right: 20px;
+    padding-left: 20px;
+    justify-content: center;
+    /* background-color: lightgreen; */
+}
+/* https://www.behance.net/gallery/21645621/Nutrition-Logo */
+#sideLogo{
+    width: 90px;
+    height: 90px;
+}
+h1{
+    height: 90px;
+}
+#mainContent{
+    width: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+/* Remove bullets, and padding 
+on left where they used to be. */
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+/* Change to display block to center items, 
+inline only take up space that they need. */
+li > a{
+    display: block;
+    text-align: center;
+}
+/* Space out sidenav li's */
+ul > li{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
