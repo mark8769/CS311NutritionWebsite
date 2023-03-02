@@ -1,41 +1,81 @@
+/*
+Mark Ortega-Ponce
+2/28/23
+CS311
+*/
+
+/* Take full height and width of screen */
+html{
+    height: 100vh;
+    width: 100vw;
+}
+/* Take full height, for nav styling */
+body{
+    height: 100%;
+}
+/* Flex container for layout */
 .container{
+    height: 100%;
     display: flex;
     flex-direction: row;
 }
+/* Take remaining width of page after nav */
+#mainContainer{
+    width: 100%;
+}
+/* Take full height of page for border styling */
 #sideNav{
+    height: 100%;
     width: 90px;
     padding-right: 20px;
     padding-left: 20px;
     justify-content: center;
-    /* background-color: lightgreen; */
+    /* https://www.w3schools.com/css/css_border_sides.asp */
+    border-style: hidden solid hidden hidden;
 }
 /* https://www.behance.net/gallery/21645621/Nutrition-Logo */
 #sideLogo{
     width: 90px;
     height: 90px;
 }
+/* Align header, and add a border underneath it */
 h1{
     height: 90px;
+    text-align: center;
+    border-style: hidden hidden solid hidden;
 }
 #mainContent{
-    width: auto;
     padding-right: 20px;
     padding-left: 20px;
 }
-/* Remove bullets, and padding 
-on left where they used to be. */
-ul{
-    list-style-type: none;
-    padding-left: 0;
-}
-/* Change to display block to center items, 
-inline only take up space that they need. */
-li > a{
-    display: block;
+/* Style nav links */
+.item{
+    line-height: 20px;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
 }
-/* Space out sidenav li's */
-ul > li{
-    margin-top: 50px;
-    margin-bottom: 50px;
+/* Change color on hover */
+.item:hover{
+    background-color: aqua;
+}
+.clicked{
+    background-color: aqua;
+}
+/* Default size on displayed images */
+img{
+    height: 500px;
+    width: 700px;
+}
+/* Basic center class */
+.center{
+    text-align: center;
+}
+/* Simple media query to adjust image size on smaller screens */
+@media(max-width: 450px){
+    img{
+        height: 125px;
+        width: 175px;
+    }
 }
