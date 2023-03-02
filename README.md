@@ -4,8 +4,8 @@ This project involves using HTML, CSS, and Javascript to dynamically change cont
 
 ## Webpage screencaps
 
-[Home Page](https://raw.githubusercontent.com/mark8769/CS311NutritionWebsite/main/readmeImages/readme3.png)
+![Home Page](https://raw.githubusercontent.com/mark8769/CS311NutritionWebsite/main/readmeImages/readme3.png)
 
-[Navigating Links](https://raw.githubusercontent.com/mark8769/CS311NutritionWebsite/main/readmeImages/readme.png)
+![Navigating Links](https://raw.githubusercontent.com/mark8769/CS311NutritionWebsite/main/readmeImages/readme.png)
 
-[Navigating Links](https://raw.githubusercontent.com/mark8769/CS311NutritionWebsite/main/readmeImages/readme2.png)
+![Navigating Links](https://raw.githubusercontent.com/mark8769/CS311NutritionWebsite/main/readmeImages/readme2.png)
